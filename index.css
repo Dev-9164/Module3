@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: aliceblue;
+}
+/* 
+header {
+  width: 100%;
+  height: 60px;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+} */
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+/* nav {
+  width: 80%;
+  height: 60px;
+  background: lightblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: black;
+  border-bottom: 1px solid #fff;
+} */
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+h1 {
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.row {
+  justify-content: center;
+}
+.box {
+  margin: 0 auto;
+  padding: 2rem;
+  margin: 1rem auto;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background: linear-gradient(to top left, #00ff88dc, #60efffd7);
+  transition: all 300ms ease-in-out;
+}
+
+.box:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  background: linear-gradient(to top left, #00ff88f9, #60effff9);
+}
+.outer-box {
+  margin: 0 2rem;
+}
+.box p {
+  color: black;
+}
+.box h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.linkk {
+  border-bottom: 1px solid whitesmoke;
+  background: rgb(248,249,250) !important;
+  color: black !important;
+}
